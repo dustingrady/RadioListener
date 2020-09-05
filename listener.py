@@ -57,11 +57,9 @@ def execute():
     """
     target_freqs = {
         'usa': 433,
-        'jap': 315,
-        'radio': 106.5
+        'jap': 315
     }
 
-    # Listener(target_freqs).collect_samples()
     Listener(target_freqs).start_thread()
 
 
